@@ -198,6 +198,7 @@ ul.navigation-links > li, .settings-links > li{
     box-shadow: 0 10px 10px -10px black;
     font-family: 'sinkin_sans';
     font-size: 12px;
+    font-weight: 500;
 }
 form.search{
     grid-area: 1 / 1 / 2 / 2;
@@ -300,7 +301,7 @@ img#profile-icon-small{
     font-size: 11px;
 }
 .project-title{
-
+    font-weight: bold;
 }
 .project-quick-actions{
     display: flex;
@@ -327,6 +328,9 @@ img#profile-icon-small{
     box-shadow: 5px 5px 10px -10px black;
     padding: 20px;
     
+}
+.announcement-title{
+    font-weight: bold;
 }
 .announcements{
     display: flex;
@@ -356,6 +360,9 @@ img#profile-icon-small{
     border-radius: 5px;
     box-shadow: 5px 5px 10px -10px black;
     font-size: 10px;
+}
+.trending-profile-username{
+    font-weight: bold;
 }
 .trending-item{
     display: flex;
